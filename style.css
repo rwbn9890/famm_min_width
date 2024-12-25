@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1320px;
+    border: 1px solid red;
+    margin: auto;
+
+}
+
+
+
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.d-flex{
+    display: flex;
+}
+.j-center{
+    justify-content: center;
+}
+.j-between{
+    justify-content: space-between;
+}
+.j-end{
+    justify-content: end;
+}
+.align-center{
+    align-items: center;
+}
+.align-star{
+    align-items: start;
+}
+
+.d-column{
+    flex-direction: column;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+
+.nav a{
+    text-decoration: none;
+    padding: 20px;
+    font-weight: 700;
+    color: black;
+}
+.menu{
+    padding: 10px;
+}
+
+.menu button{
+     font-size: 30px;
+     border: none;
+     background-color: transparent;
+}
+
+
+
+.main_banner{
+    padding: 90px 0px;
+    background-image: url(https://technext.github.io/famms/images/slider-bg.jpg);
+
+    background-size: cover;
+
+}
+
+.main_banner h1{
+    font-size:50px;
+}
+
+.main_banner h1::first-line{
+    color: tomato;
+}
+
+.main_banner button{
+    display: block;
+    margin-top:50px;
+    padding: 20px;
+    background-color: tomato;
+    color: white;
+}
+
+
+ .main_slider .slick-dots{
+    width: fit-content !important;
+    bottom: -75px !important;
+    left: 100px;
+}
+
+ .main_slider .slick-dots li button:before{
+   color: white !important;
+   font-size: 20px !important;
+}
+
+ .main_slider .slick-dots li.slick-active button:before{
+    color: tomato !important;
+    font-size: 25px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.blogs{
+    display: flex;
+    justify-content: center;
+}
+
+.p-10{
+    padding: 10px;
+}
+
+.box{
+    box-shadow: 1px 1px 4px gray;
+    border-radius: 10px;
+    padding: 10px;
+    overflow: hidden;
+    height: 100%
+   
+}
+
+.box img{
+    width: 100%;
+    /* padding: 5px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 4px gray; */
+}
+
+.logo img{
+    width: 200px;
+}
+
+.box-text{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.box-text h2{
+    font-family: monospace;
+}
+
+.box-text p{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+
+.box-text button{
+    padding: 7px 15px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
+
+.box-text button:hover{
+    color: green;
+    background-color: white;
+}
+
+
+.b{
+
+}
